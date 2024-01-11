@@ -113,7 +113,7 @@ const About = () => {
             <div className="card">
               <div className="face face1">
                 <div className="content">
-                  <h2>Visual Studio Code</h2>
+                  <h2>VS Code</h2>
                 </div>
               </div>
               <div className="face face2">

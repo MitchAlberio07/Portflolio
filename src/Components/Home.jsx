@@ -3,9 +3,10 @@ import './Styles/Home.css';
 import myProfile from './Assets/images/mitch.png';
 import { Link } from 'react-scroll'; 
 
-const Header = () => {
+const Home = () => {
   return (
-    <section className="home" id='home'>
+    <section id='home'>
+    <div className="home" >
       <div className="home-text">
         <span>Front-End Developer | Web Designer</span>
         <h1>Metuselam Alberio</h1>
@@ -29,8 +30,9 @@ const Header = () => {
       <div className="home-img">
         <img src={myProfile} alt="Profile" />
       </div>
+      </div>
     </section>
   )
 }
 
-export default Header;
+export default Home;

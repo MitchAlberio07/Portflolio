@@ -1,5 +1,8 @@
+#home {
+  background-color: var(--bg-color);
+  width: auto;
+}
 .home{
-   background-color: var(--bg-color);
     position: relative;
     width: 100%;
     height: calc(100vh - 3rem);
@@ -63,15 +66,18 @@
     color: var(--main-color);
   }
   .two {
+    display: flex;
+    justify-content: center;
     background: #141414;
     border: 2px solid #141414;
     color: var(--text-color);
     margin-left:25px;
-  }
-  .two:hover{
+
+     &:hover{
     color: #141414;
     background: var(--text-color);
     border: 2px solid var(--text-color)
+     }
   }
 
   
@@ -163,6 +169,9 @@
     }
     .btn {
       width: auto;
+    }
+    .two {
+      margin-left:0;
     }
   }
   
