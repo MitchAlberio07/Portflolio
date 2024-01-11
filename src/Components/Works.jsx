@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <div id='worksSection'>
       <section id='works'>
-        <h2 >Projects </h2>
+        <h2 >Recent Projects </h2>
         <div className="Project-container">
           
           <div className="zoom-effect-container">

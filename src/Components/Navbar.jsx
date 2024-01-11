@@ -107,7 +107,7 @@ const Navbar = () => {
             duration={500}
             className='navbarMenu' onClick={()=>setShowMenu(false)}
           >
-            Contact Me
+            Contact
           </Link>
         </div>
       
