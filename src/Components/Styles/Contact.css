@@ -1,0 +1,91 @@
+#contact {
+    height: calc(100vh - 3rem);
+    padding: 50px;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#contact h1{
+    margin: 0;
+    padding: 1rem;
+}
+#contact span {
+    font-size: medium;
+    font-weight: 300;
+}
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 50rem;
+}
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea[name="message"] {
+    color: #fff;
+}
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(130.08deg, #383528 0%, #191919 100%);                                                     
+    border: 1px solid #3b3b3b;
+    border-radius: 0.5rem;
+}
+.submitBtn {
+    margin: 2rem;
+    display: inline-block;
+    padding: 10px 30px;
+    background: var(--main-color);
+    color: var(--text-color);
+    border: 2px solid var(--main-color);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.6s ease-in-out;
+
+    &:hover {
+        transform: translateY(-5px);
+        background: transparent;
+        color: var(--main-color);
+    }
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    background: linear-gradient(130.08deg, #383528 0%, #191919 100%);                                                      
+    box-shadow: 0px 10px 20px #5d0070;
+    border: 1px solid #3b3b3b;
+    border-radius: 50%;
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 0 7px;
+    transition: all 0.6s ease-in-out;
+
+    &:hover {
+        transform: translateY(-10px);
+        background: linear-gradient(45deg, #24006b, #f42f8c);
+    }
+}
+
+@media screen and (max-width:1050px) {
+    #contact {
+        height: 100%;
+    }
+
+}
