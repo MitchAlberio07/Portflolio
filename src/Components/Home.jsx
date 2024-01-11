@@ -12,7 +12,7 @@ const Header = () => {
         <p>Passionate about bringing technical and visual aspects of digital products to life. Proficient in the latest web technologies, with a solid foundation in HTML, CSS, and JavaScript skills to contribute to the development of visually appealing and user-friendly websites.</p>
 
         <div className="main-btn">
-          <a href="https://api.freepdfconvert.com/d/b0roc5wugnj7ybgoldimd8z53jvnsbx0" target="_blank" className="btn">Download CV</a>
+          <a href="https://api.freepdfconvert.com/d/wyyd0h8zm635131oy5obbi1pzn4mv799" target="_blank" className="btn">Download CV</a>
           <Link
           activeClass='active'
           to='contact'
