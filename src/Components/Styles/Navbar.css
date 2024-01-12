@@ -43,7 +43,21 @@ header {
     margin: auto 25px;
     transition: all ease .50s;
   }
-  .navbarLink:hover,
+  .navbarLink::after {
+    border-bottom: solid 3px var(--main-color);
+    border-radius: 5px;
+                      
+    bottom: 0;
+    content: "";
+    display: block;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+  .navbarLink:hover::after {
+    width: 100%;
+  }        
+
   .navbarMenu:hover {
     color: var(--main-color);
     padding-bottom: 0.5rem;
@@ -108,7 +122,6 @@ header {
   
   @media(max-width: 950px){
     header {
-        
         padding:11px 4%;
         background: #2d2d2d;
     }
@@ -127,4 +140,43 @@ header {
       display: none;
     }
   }
-  
+  @media(max-width: 500px){
+    .navbar {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0;
+    }
+    .mobMenu {
+      display: flex;
+    }
+    .menuList {
+      display: none;
+    }
+  }
+  @media(max-width: 400px){
+    header {
+      position: fixed;
+      top:0;
+      width: 390px;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all ease .45s;
+    }
+    .navbar {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0;
+    }
+    .mobMenu {
+      display: flex;
+    }
+    .menuList {
+      display: none;
+    }
+  }

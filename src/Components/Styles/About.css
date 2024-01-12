@@ -12,6 +12,7 @@
     font-size: 4rem;
     text-align: center;
   }
+
   .about p {
     color: var(--bg-color);
     font-weight: 600;
@@ -173,6 +174,7 @@
   @media(max-width: 850px){
     .about {
         height: 100%;
+        padding: 0;
     }
     .container {
       display: grid;
@@ -180,11 +182,9 @@
     }
   }
   @media(max-width: 500px){
-    .section{
-      padding: 70px 4%;
-  }
     .about {
         height: 100%;
+        padding: 0px 4%;
     }
     
     .card{

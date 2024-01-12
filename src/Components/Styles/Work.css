@@ -9,14 +9,11 @@
     margin: 0;  
 }
 #works h2 {
-    width: 100%;
+    width: 365px;
     font-size: 3rem;
     color: rgb(85, 85, 85);
-    padding-bottom: 50px;
-    /* border-bottom: 3px solid rgb(102,39,106);; */
+    margin-bottom: 50px;
 }
-
-
 
   .bg-one {
     background: url('../Assets/images/project1.jpg') ;
@@ -97,10 +94,10 @@
   .zoom-effect-container:hover .image-card {
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
-            transform: scale(1.2); /* Sets the zoom to 120% */
+            transform: scale(1.2);
   }
   .zoom-effect-container:hover .Project-content {
-    top: 0; /* Moves the content to appear on hover */
+    top: 0; 
   }
   .view-btn {
     display: inline-block;
@@ -141,11 +138,12 @@
     height: 100%;
     background-color: #fff; 
     width: 100%;
-    padding-top: 80px;
+    padding-top: 0;
 }
   #works h2{
     font-size: 2rem;
-  }
+ }
+
   .zoom-effect-container {
     text-align: center;
       border-radius: 10px;
