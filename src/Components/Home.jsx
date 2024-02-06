@@ -8,7 +8,7 @@ const Home = () => {
     <section id='home'>
     <div className="home" >
       <div className="home-text">
-        <span>Front-End Developer | Web Designer</span>
+        <span>Virtual Assistant | Front-End Developer | Web Designer </span>
         <h1>Metuselam Alberio</h1>
         <p>Passionate about bringing technical and visual aspects of digital products to life. Proficient in the latest web technologies, with a solid foundation in HTML, CSS, and JavaScript skills to contribute to the development of visually appealing and user-friendly websites.</p>
 
