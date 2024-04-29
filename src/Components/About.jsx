@@ -85,17 +85,7 @@ const About = () => {
               </div>
             </div>
 
-            {/* GIT */}
-            <div className="card">
-              <div className="face face1">
-                <div className="content">
-                  <h2>GIT</h2>
-                </div>
-              </div>
-              <div className="face face2">
-                <img src={Git} alt="GIT" />
-              </div>
-            </div>
+            
 
             {/* Github */}
             <div className="card">
@@ -120,7 +110,19 @@ const About = () => {
                 <img src={VScode} alt="Visual Studio Code" />
               </div>
             </div>
-
+          
+            {/* GIT */}
+              <div className="card">
+                <div className="face face1">
+                  <div className="content">
+                    <h2>Canva</h2>
+                  </div>
+                </div>
+                <div className="face face2">
+                  <img src={Git} alt="GIT" />
+                </div>
+              </div>
+              
             {/* Figma */}
             <div className="card">
               <div className="face face1">

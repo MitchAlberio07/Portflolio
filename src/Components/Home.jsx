@@ -13,7 +13,7 @@ const Home = () => {
         <p>Passionate about bringing technical and visual aspects of digital products to life. Proficient in the latest web technologies, with a solid foundation in HTML, CSS, and JavaScript skills to contribute to the development of visually appealing and user-friendly websites.</p>
 
         <div className="main-btn">
-          <a href="https://drive.google.com/file/d/1Xcff-QKkEuFnSeYYSh7YxGQ0No9y7mFu/view?usp=sharing" target="_blank" className="btn">Download CV</a>
+          <a href="https://drive.google.com/file/d/1Xmya2wdPHL8a_zEpP_C-j0yDy3J9WxWU/view?usp=sharing" target="_blank" className="btn">Download CV</a>
           <Link
           activeClass='active'
           to='contact'
